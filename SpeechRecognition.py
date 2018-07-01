@@ -81,8 +81,8 @@ def process_mailbox(M):
     M.logout()
 
 def fetchLatestMails() :
-    user = "tushar.kadu1291@gmail.com"
-    pwd = "mailjol@123"
+    user = "put email address"
+    pwd = "put password"
     M = imaplib.IMAP4_SSL('imap.gmail.com')
 
     try:
@@ -227,7 +227,7 @@ if __name__ == "__main__":
  
         elif "rakesh" in userText:    
             engine = pyttsx3.init()
-            engine.say("  Rakesh issss Assss HOLE")
+            engine.say("  Rakesh u will remain in GS !!!!")
             engine.setProperty('rate',500)  
             engine.runAndWait()
 
